@@ -11,6 +11,37 @@ const questions = () => {
   return inquirer.prompt([
     {
       type: "input",
+      name: "name", 
+      message: "What is your name? (Required)",
+      validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log("Please enter your name!");
+          return false;
+        }
+      }
+    },
+    // {
+    //   type: "confirm",
+    //   name: "confirmPartners",
+    //   message: "Would you like to enter the name of a contributer?",
+    //   default: true
+    // },
+    // {
+    //   type: "input",
+    //   name: "about", 
+    //   message: "Provide some information about yourself.",
+    //   when: ({ confirmAbout }) => {
+    //     if (confirmAbout) {
+    //       return true;
+    //     } else {
+    //       return false;
+    //     }
+    //   }
+    // },
+    {
+      type: "input",
       name: "project",
       message: "What is the name of your project? (Required)",
       validate: projectInput => {
@@ -21,7 +52,7 @@ const questions = () => {
           return false;
         }
       }
-    }
+    },
   ])
 };
 
