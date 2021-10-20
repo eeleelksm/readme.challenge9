@@ -3,6 +3,7 @@ const inquirer = require("inquirer");
 
 // TODO: Create an array of questions for user input
 const questions = () => {
+
   console.log(`
   Professional README Generator
   =============================
@@ -101,6 +102,19 @@ const questions = () => {
       }
     },
     {
+      type: "input",
+      name: "contribution", 
+      message: "Please provide contribution guidelines for this project. (Required)",
+      validate: contributionInput => {
+        if (contributionInput) {
+          return true;
+        } else {
+          console.log("Please enter the contribution guidelines!");
+          return false;
+        }
+      }
+    },
+    {
       type: "confirm",
       name: "confirmPartner", 
       message: "Would you like to add a contributor?",
@@ -130,6 +144,19 @@ const questions = () => {
         }
       }
     },
+    {
+      type: "input",
+      name: "test", 
+      message: "Please provide the test instructions for this project. (Required)",
+      validate: testInput => {
+        if (testInput) {
+          return true;
+        } else {
+          console.log("Please enter the test instructions!");
+          return false;
+        }
+      }
+    }
   ])
 };
 
