@@ -51,10 +51,10 @@ const questions = () => {
     },
     {
       type: "input",
-      name: "project",
+      name: "title",
       message: "What is the name of your project? (Required)",
-      validate: projectInput => {
-        if (projectInput) {
+      validate: titleInput => {
+        if (titleInput) {
           return true;
         } else {
           console.log("Please enter your project name!");
@@ -153,6 +153,25 @@ const questions = () => {
           return true;
         } else {
           console.log("Please enter the test instructions!");
+          return false;
+        }
+      }
+    },
+    {
+      type: "confirm",
+      name: "confirmLicense", 
+      message: "Would you like to add a license?",
+      default: true
+    },
+    {
+      type: "list",
+      name: "license", 
+      message: "Select a license for your project.",
+      choices: ["Apache", "Boost", "BSD 3", "Eclipse", "IBM", "ISC", "MIT", "Mozilla", "Zlib"],
+      when: ({ confirmLicense }) => {
+        if (confirmLicense) {
+          return true;
+        } else {
           return false;
         }
       }
