@@ -20,7 +20,8 @@ Once all of the questions have been answered, the markdown is generated. The fol
 
 ![Screen Shot 2021-10-21 at 7 08 25 PM](https://user-images.githubusercontent.com/40374896/138370469-470122e1-1c28-4e3e-afb3-3f08ea09de88.png)
 
-![Screen Shot 2021-10-21 at 7 08 57 PM](https://user-images.githubusercontent.com/40374896/138370667-cac98116-a4f0-4b55-a2c4-1e448fd53bbd.png)
+
+Congratulations! You've successfully used the README Generator command-line application. The below screenshots show what the generated README.md looks like in VS Code and in GitHub.
 
 ![Screen Shot 2021-10-21 at 7 11 47 PM](https://user-images.githubusercontent.com/40374896/138370693-a5e67d77-fe99-4743-bb87-f73c3c389311.png)
 
