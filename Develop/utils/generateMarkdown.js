@@ -1,21 +1,3 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-const renderLicenseBadge = license => {
-  if (!license) {
-    return "";
-  }
-
-}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = data => {
   return `
@@ -38,13 +20,13 @@ const generateMarkdown = data => {
   
   ## Installation
 
-  Follow these instructions in order to install the project:
+  What are the steps required to install this project? Read the following step-by-step description of how to get this application running.
 
   ${data.install}
 
   ## Usage
 
-  Follow these instructions for usage of this project:
+  Follow these instructions on how to use this application:
 
   ${data.instruct}
 
@@ -54,21 +36,21 @@ const generateMarkdown = data => {
 
   ## Contributing
 
-  Would you like to contribute to the project? Here are some steps:
+  Participating in open source is often a highly collaborative experience. Want to contribute to the application? Please read the following steps on how to do so:
 
   ${data.contribution}
 
-  Original application created by: ${data.name}
+  This application was originally created by: ${data.name}
 
   ## Tests
 
-  Read the following steps to test the application:
+  The following tests were written for this application. Here are examples on how to run them:
 
   ${data.test}
 
   ## Questions
 
-  If you have any further questions about the use of this project, please contact me at the following:
+  Have any further questions about the use of this project? Feel free to contact me at:
 
   Name: ${data.name}
   
