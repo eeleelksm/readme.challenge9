@@ -1,8 +1,9 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateReadme = require("./Develop/utils/generateMarkdown.js");
 
+// pulling in the markdown generator template
+const generateReadme = require("./Develop/utils/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -198,9 +199,6 @@ function init() {
   questions()
   .then(generateReadme)
   .then(writeToFile)
-  .then(pageReadme => {
-    return writeToFile(pageReadme);
-  })
   .catch(err => {
     console.log(err);
   })
