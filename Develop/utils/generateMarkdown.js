@@ -21,7 +21,7 @@ const generateMarkdown = data => {
   return `
   # ${data.title}
 
-  [!Badge](https://img.shields.io/badge/License-${data.license}-brightgreen)
+  <img src="https://img.shields.io/badge/License-${data.license}-brightgreen"/>
 
   ## Description
 
@@ -55,7 +55,6 @@ const generateMarkdown = data => {
   ## Contributing
 
   Would you like to contribute to the project? Here are some steps:
-
 
   Contributors:
   ${data.name}
