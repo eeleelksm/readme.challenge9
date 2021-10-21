@@ -30,10 +30,14 @@ function generateMarkdown(data) {
   
   ## Installation
 
+  Follow these instructions in order to install the project:
+
   ${data.install}
 
   ## Usage
 
+  Follow these instructions for usage:
+  
   ${data.instruct}
 
   ## License
