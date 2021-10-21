@@ -1,6 +1,11 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+const renderLicenseBadge = license => {
+  if (!license) {
+    return "";
+  }
+
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -11,7 +16,7 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
+const generateMarkdown = data => {
   return `
   # ${data.title}
 
@@ -48,12 +53,12 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  If you have any further questions, please contact me at the following:
+  If you have any further questions about the use of this project, please contact me at the following:
 
   Name: ${data.name}
   
   GitHub: [GitHub Profile](https://www.github.com/${data.github}/)
-  
+
   Email Address: [${data.email}](mailto:${data.email})
 `;
 }

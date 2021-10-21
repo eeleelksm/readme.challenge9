@@ -17,7 +17,7 @@ const questions = () => {
     {// Name of User
       type: "input",
       name: "name", 
-      message: "What is your name? (Required)",
+      message: "What is your first and last name? (Required)",
       validate: nameInput => {
         if (nameInput) {
           return true;
@@ -108,12 +108,12 @@ const questions = () => {
     { // Contribution guidelines
       type: "input",
       name: "contribution", 
-      message: "Please provide contribution guidelines for this project. (Required)",
+      message: "Please provide contribution guidelines for this project.",
       validate: contributionInput => {
         if (contributionInput) {
           return true;
         } else {
-          console.log("Please enter the contribution guidelines!");
+          console.log("Please enter the contribution guidelines.");
           return false;
         }
       }
@@ -151,7 +151,7 @@ const questions = () => {
     { // Test intructions
       type: "input",
       name: "test", 
-      message: "Please provide the test instructions for this project. (Required)",
+      message: "Please provide the test instructions for this project.",
       validate: testInput => {
         if (testInput) {
           return true;
@@ -160,22 +160,17 @@ const questions = () => {
           return false;
         }
       }
-    },
-    { // Adding a license
-      type: "confirm",
-      name: "confirmLicense", 
-      message: "Would you like to add a license?",
-      default: true
-    },
-    {
+    }, 
+    {// Adding a license
       type: "list",
       name: "license", 
       message: "Select a license for your project.",
       choices: ["Apache", "Boost", "BSD 3", "Eclipse", "IBM", "ISC", "MIT", "Mozilla", "Zlib"],
-      when: ({ confirmLicense }) => {
-        if (confirmLicense) {
+      validate: licenseInput => {
+        if (licenseInput) {
           return true;
         } else {
+          console.log("Please select a license.");
           return false;
         }
       }
@@ -189,17 +184,17 @@ function writeToFile(data) {
       // if there's an error, reject and return the error
       if (err) {
         return (err);
-      }
+      } // if there's no error, present message thata markdown's been created
       console.log("Your markdown file has been created!");
   });
 };
 
 // TODO: Create a function to initialize app
 function init() {
-  questions()
-  .then(generateReadme)
+  questions() // present the questions
+  .then(generateReadme) // then run generateReadme
   .then(pageReadme => {
-    return writeToFile(pageReadme);
+    return writeToFile(pageReadme); // then write file into new location
   })
   .catch(err => {
     console.log(err);
