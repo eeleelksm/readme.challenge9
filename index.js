@@ -199,6 +199,9 @@ function init() {
   questions()
   .then(generateReadme)
   .then(writeToFile)
+  .then(pageReadme => {
+    return writeToFile(pageReadme);
+  })
   .catch(err => {
     console.log(err);
   })
