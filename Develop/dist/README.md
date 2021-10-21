@@ -1,9 +1,9 @@
 
-  # d
+  # k
 
   ## Description
 
-  d
+  k
 
   ## Table of Contents
 
@@ -18,13 +18,13 @@
 
   Follow these instructions in order to install the project:
 
-  d
+  k
 
   ## Usage
 
   Follow these instructions for usage:
 
-  d
+  k
 
   ## License
 
@@ -36,8 +36,8 @@
 
   If you have any further questions, please contact me at the following:
 
-  Name: Keshia-Lee
+  Name: k
   
-  GitHub: [GitHub Profile](https://www.github.com/d/)
+  GitHub: [GitHub Profile](https://www.github.com/k/)
   
-  Email Address: [d](mailto:d)
+  Email Address: [k](mailto:k)
