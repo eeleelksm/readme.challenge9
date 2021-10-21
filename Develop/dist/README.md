@@ -1,11 +1,11 @@
 
   # README Generator
 
-  <img src="https://img.shields.io/badge/License-BSD 3-brightgreen"/>
+  <img src="https://img.shields.io/badge/License-MIT-brightgreen"/>
 
   ## Description
 
-  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget lorem dolor sed viverra ipsum. Elementum integer enim neque volutpat ac tincidunt vitae. Penatibus et magnis dis parturient. Eu feugiat pretium nibh ipsum consequat nisl vel pretium. Suspendisse interdum consectetur libero id faucibus nisl. Nec nam aliquam sem et tortor consequat id porta. Sodales ut eu sem integer vitae justo eget magna fermentum. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Dolor sit amet consectetur adipiscing elit ut aliquam purus. Mi quis hendrerit dolor magna.
 
   ## Table of Contents
 
@@ -18,37 +18,37 @@
   
   ## Installation
 
-  Follow these instructions in order to install the project:
+  What are the steps required to install this project? Read the following step-by-step description of how to get this application running.
 
-  account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences th
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget lorem dolor sed viverra ipsum. Elementum integer enim neque volutpat ac tincidunt vitae. Penatibus et magnis dis parturient. Eu feugiat pretium nibh ipsum consequat nisl vel pretium. Suspendisse interdum consectetur libero id faucibus nisl. Nec nam aliquam sem et tortor consequat id porta. Sodales ut eu sem integer vitae justo eget magna fermentum. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Dolor sit amet consectetur adipiscing elit ut aliquam purus. Mi quis hendrerit dolor magna.
 
   ## Usage
 
-  Follow these instructions for usage of this project:
+  Follow these instructions on how to use this application:
 
-  enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget lorem dolor sed viverra ipsum. Elementum integer enim neque volutpat ac tincidunt vitae. Penatibus et magnis dis parturient. Eu feugiat pretium nibh ipsum consequat nisl vel pretium. Suspendisse interdum consectetur libero id faucibus nisl. Nec nam aliquam sem et tortor consequat id porta. Sodales ut eu sem integer vitae justo eget magna fermentum. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Dolor sit amet consectetur adipiscing elit ut aliquam purus. Mi quis hendrerit dolor magna.
 
   ## License
 
-  This application is covered under the BSD 3 License
+  This application is covered under the MIT License
 
   ## Contributing
 
-  Would you like to contribute to the project? Here are some steps:
+  Participating in open source is often a highly collaborative experience. Want to contribute to the application? Please read the following steps on how to do so:
 
-  enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget lorem dolor sed viverra ipsum. Elementum integer enim neque volutpat ac tincidunt vitae. Penatibus et magnis dis parturient. Eu feugiat pretium nibh ipsum consequat nisl vel pretium. Suspendisse interdum consectetur libero id faucibus nisl. Nec nam aliquam sem et tortor consequat id porta. Sodales ut eu sem integer vitae justo eget magna fermentum. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Dolor sit amet consectetur adipiscing elit ut aliquam purus. Mi quis hendrerit dolor magna.
 
-  Original application created by: Keshia-Lee Martin
+  This application was originally created by: Keshia-Lee Martin
 
   ## Tests
 
-  Read the following steps to test the application:
+  The following tests were written for this application. Here are examples on how to run them:
 
-  enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget lorem dolor sed viverra ipsum. Elementum integer enim neque volutpat ac tincidunt vitae. Penatibus et magnis dis parturient. Eu feugiat pretium nibh ipsum consequat nisl vel pretium. Suspendisse interdum consectetur libero id faucibus nisl. Nec nam aliquam sem et tortor consequat id porta. Sodales ut eu sem integer vitae justo eget magna fermentum. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Dolor sit amet consectetur adipiscing elit ut aliquam purus. Mi quis hendrerit dolor magna.
 
   ## Questions
 
-  If you have any further questions about the use of this project, please contact me at the following:
+  Have any further questions about the use of this project? Feel free to contact me at:
 
   Name: Keshia-Lee Martin
   
