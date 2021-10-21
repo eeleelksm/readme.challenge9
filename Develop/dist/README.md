@@ -36,10 +36,6 @@
 
   Would you like to contribute to the project? Here are some steps:
 
-  Contributors:
-  Keshia-Lee
-  undefined(https://www.github.com/undefined/)
-
   ## Tests
 
   ## Questions

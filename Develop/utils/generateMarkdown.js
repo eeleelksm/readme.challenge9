@@ -50,17 +50,21 @@ const generateMarkdown = data => {
 
   ## License
 
-  ${data.license} License
+  This application is covered under the ${data.license} License
 
   ## Contributing
 
   Would you like to contribute to the project? Here are some steps:
 
-  Contributors:
-  ${data.name}
-  ${data.contributor}(https://www.github.com/${data.gitcontributor}/)
+  ${data.contribution}
+
+  Original application created by: ${data.name}
 
   ## Tests
+
+  Read the following steps to test the application:
+
+  ${data.test}
 
   ## Questions
 
