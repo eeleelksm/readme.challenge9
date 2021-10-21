@@ -15,10 +15,13 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
+
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = data => {
   return `
   # ${data.title}
+
+  [!Badge](https://img.shields.io/badge/License-${data.license}-brightgreen)
 
   ## Description
 
@@ -41,13 +44,22 @@ const generateMarkdown = data => {
 
   ## Usage
 
-  Follow these instructions for usage:
+  Follow these instructions for usage of this project:
 
   ${data.instruct}
 
   ## License
 
+  ${data.license} License
+
   ## Contributing
+
+  Would you like to contribute to the project? Here are some steps:
+
+
+  Contributors:
+  ${data.name}
+  ${data.contributor}(https://www.github.com/${data.gitcontributor}/)
 
   ## Tests
 

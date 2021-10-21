@@ -1,9 +1,11 @@
 
-  # k
+  # no
+
+  [!Badge](https://img.shields.io/badge/License-Apache-brightgreen)
 
   ## Description
 
-  k
+  no
 
   ## Table of Contents
 
@@ -18,26 +20,35 @@
 
   Follow these instructions in order to install the project:
 
-  k
+  no
 
   ## Usage
 
-  Follow these instructions for usage:
+  Follow these instructions for usage of this project:
 
-  k
+  no
 
   ## License
 
+  Apache License
+
   ## Contributing
+
+  Would you like to contribute to the project? Here are some steps:
+
+
+  Contributors:
+  Keshia-Lee
+  here(https://www.github.com/here/)
 
   ## Tests
 
   ## Questions
 
-  If you have any further questions, please contact me at the following:
+  If you have any further questions about the use of this project, please contact me at the following:
 
-  Name: k
+  Name: Keshia-Lee
   
-  GitHub: [GitHub Profile](https://www.github.com/k/)
-  
-  Email Address: [k](mailto:k)
+  GitHub: [GitHub Profile](https://www.github.com/eeleelksm/)
+
+  Email Address: [ho](mailto:ho)
