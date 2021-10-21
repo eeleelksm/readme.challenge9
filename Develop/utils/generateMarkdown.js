@@ -37,7 +37,7 @@ function generateMarkdown(data) {
   ## Usage
 
   Follow these instructions for usage:
-  
+
   ${data.instruct}
 
   ## License
@@ -49,6 +49,7 @@ function generateMarkdown(data) {
   ## Questions
 
   If you have any further questions, please contact me at the following:
+  Name: ${data.name}
   GitHub: [GitHub Profile](https://www.github.com/${data.github}/)
   Email Address: [${data.email}](mailto:${data.email})
 `;
