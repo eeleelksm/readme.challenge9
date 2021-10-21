@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateReadme = require("./utils/generateMarkdown.js");
+const generateReadme = require("./Develop/utils/generateMarkdown.js");
+
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -12,7 +13,7 @@ const questions = () => {
   `)
 
   return inquirer.prompt([
-    {
+    {// Name of User
       type: "input",
       name: "name", 
       message: "What is your name? (Required)",
@@ -25,7 +26,7 @@ const questions = () => {
         }
       }
     },
-    {
+    { // Github Username
       type: "input",
       name: "github", 
       message: "What is your GitHub username? (Required)",
@@ -38,7 +39,7 @@ const questions = () => {
         }
       }
     },
-    {
+    { // Email
       type: "input",
       name: "email", 
       message: "What is your email address? (Required)",
@@ -51,7 +52,7 @@ const questions = () => {
         }
       }
     },
-    {
+    { // Name of the Project
       type: "input",
       name: "title",
       message: "What is the name of your project? (Required)",
@@ -64,7 +65,7 @@ const questions = () => {
         }
       }
     },
-    {
+    { // Description of Project
       type: "input",
       name: "description",
       message: "Please provide a description of your project. (Required)",
@@ -77,20 +78,20 @@ const questions = () => {
         }
       }
     },
-    {
+    { // Installation Steps
       type: "input",
       name: "install", 
-      message: "Please provide your project's installation instructions. (Required)",
+      message: "Please provide your project's installation steps. (Required)",
       validate: installInput => {
         if (installInput) {
           return true;
         } else {
-          console.log("Please enter your project's installation instructions!");
+          console.log("Please enter your project's installation steps!");
           return false;
         }
       }
     },
-    {
+    { // Usage Instructions
       type: "input",
       name: "instruct", 
       message: "Please provide the usage instructions for this project. (Required)",
@@ -103,7 +104,7 @@ const questions = () => {
         }
       }
     },
-    {
+    { // Contribution guidelines
       type: "input",
       name: "contribution", 
       message: "Please provide contribution guidelines for this project. (Required)",
@@ -116,13 +117,13 @@ const questions = () => {
         }
       }
     },
-    {
+    { // Adding a Contributor
       type: "confirm",
       name: "confirmPartner", 
       message: "Would you like to add a contributor?",
       default: true
     },
-    {
+    { // Contributor's name
       type: "input",
       name: "contributor", 
       message: "What is the name of your contributor?",
@@ -134,7 +135,7 @@ const questions = () => {
         }
       }
     },
-    {
+    { // Contributor's GitHub username
       type: "input",
       name: "gitcontributor", 
       message: "What's the contributor's GitHub username?",
@@ -146,7 +147,7 @@ const questions = () => {
         }
       }
     },
-    {
+    { // Test intructions
       type: "input",
       name: "test", 
       message: "Please provide the test instructions for this project. (Required)",
@@ -159,7 +160,7 @@ const questions = () => {
         }
       }
     },
-    {
+    { // Adding a license
       type: "confirm",
       name: "confirmLicense", 
       message: "Would you like to add a license?",
@@ -183,27 +184,22 @@ const questions = () => {
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  return new Promise((resolve, reject) => {
-    fs.writeFile("./dist/README.md", fileName, data, err => {
-      // if there's an error, reject the Promise and send the error to .catch()
+    fs.writeFile(fileName, data, err => {
+      // if there's an error, reject and return the error
       if (err) {
-        reject(err);
-        return;
+        return (err);
       }
-      resolve ({
-        ok: true,
-        message: "Your README has been created!"
-      });
-    });
+      console.log("Your markdown file has been created!");
   });
 };
 
 // TODO: Create a function to initialize app
 function init() {
   questions()
+  .then(generateReadme)
   .then(writeToFile)
   .then(pageReadme => {
-    return writeToFile(pageReadme, data);
+    return writeToFile(pageReadme);
   })
   .catch(err => {
     console.log(err);
