@@ -138,7 +138,7 @@ const questions = () => {
       choices: [
         "Apache", 
         "Boost", 
-        "BSD 3", 
+        "BSD3", 
         "Eclipse", 
         "IBM", 
         "ISC", 
@@ -164,7 +164,7 @@ function writeToFile(data) {
       if (err) {
         return (err);
       } // if there's no error, present message thata markdown's been created
-      console.log("Your markdown file has been created! It can be found in the 'dist' folder");
+      console.log("Your markdown file has been created! It can be found in the 'dist' folder.");
   });
 };
 
